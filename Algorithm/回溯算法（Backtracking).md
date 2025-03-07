@@ -12,7 +12,8 @@ void backtracking(参数) {
     }
 }
 ```
-Leetcode:全排列（求解数组的全排列组合）  
+---------------------------------------------------------------------------------------
+全排列（求解数组的全排列组合）  
 [https://leetcode.cn/problems/permutations/description/?envType=study-plan-v2&envId=top-100-liked]  
 ```cpp
 void backtrack(vector<int>& nums,int first,int len){
@@ -33,4 +34,21 @@ void backtrack(vector<int>& nums,int first,int len){
         }
     }
 ```
-![](https://assets.leetcode-cn.com/solution-static/46/fig14.PNG)
+---------------------------------------------------------------------------------------
+求所有的子集问题：  
+```cpp
+vector<vector<int>> subsets(vector<int>& nums) {
+        vector<vector<int>> ans = {{}};
+        int n = nums.size();
+        for(int i = 0;i < n;i ++){
+            int m = ans.size();
+            for(int j = 0;j < m;j ++){
+                ans[j].push_back(nums[i]);
+                ans.push_back(ans[j]);
+                ans[j].pop_back();
+            }
+        }
+        return ans;
+    }
+```
+在这里可以你注意到，回溯算法的核心在于完成某次遍历后的"恢复原状"
