@@ -1,6 +1,7 @@
 口令1：
 使用决策树分类法，把文件中的数据进行分类，用python操作，python代码中备注好每步的操作
 
+```python
 # 导入所需库
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -35,11 +36,14 @@ y_pred = clf.predict(X_test)
 print("准确率 (Accuracy):", accuracy_score(y_test, y_pred))
 print("\n分类报告 (Classification Report):")
 print(classification_report(y_test, y_pred))
+```
 
 ==========================================================================================
 
 口令2：
 数学上用贝叶斯分类的方法，把文件中数据进行分类，使用python代码编写程序，并备注好每一步的操作
+
+```python
 
 import pandas as pd
 import numpy as np
@@ -120,3 +124,5 @@ y_pred = predict(X_test)
 print("准确率 (Accuracy):", accuracy_score(y_test, y_pred))
 print("\n分类报告 (Classification Report):")
 print(classification_report(y_test, y_pred, zero_division=0))
+
+```
