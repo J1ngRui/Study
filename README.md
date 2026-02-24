@@ -1,10 +1,21 @@
 This is a notebook.
 
+------
 
+Final Task
 
-未来的工作：
+- Traditional Recommandation
+- LLM4Rec（DLRMs & GRs）
+- NLP about Search
 
-1. 传统推荐模型
-2. 生成式推荐模型
-3. 大模型（端到端）
+------
+
+2026.02 Task
+
+LLM for Query Understanding
+
+- BERT [BERT.md](大模型\纯文本\BERT.md) 
+- vLLM
+- Prompt
+- RL reward
 
