@@ -5,6 +5,8 @@ This is a notebook.
 待办任务记录：
 
 - begin
+- 多学一下多模态表征这个方向，将来去大厂很有用（2026.3.17 添加）
+- 学习量化模型，fp8/fp16/bf16（2026.3.17 添加）✅️
 - LambdaRank和LambdaMART与激活函数（2026.3.13 添加）
 - 学习Lora和Q-Lora的底层原理（2026.3.13 添加）
 - 精读 OneRec / RankMixer / HyFormer / TokenMixer-Large（2026.3.6 添加）
